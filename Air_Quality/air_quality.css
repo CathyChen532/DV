@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 330px;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.map-overlay .map-overlay-inner {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.map-overlay table {
+  border: none;
+  width: 100%;
+}
+
+.map-overlay h2 {
+  line-height: 24px;
+  display: block;
+  margin: 0 0 10px;
+}
+
+.map-overlay label {
+  font: 16px/18px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0;
+}
+
+.map-overlay input {
+  display: inline;
+  vertical-align: middle;
+  margin: 5px;
+  padding: 0;
+}
+
+.map-overlay input[type="range"] {
+  width: 250px;
+}
+
+.map-overlay p.credit {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.map-legend {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgba(160, 160, 160, 0.5);
+  border-radius: 10px;
+}
+
+#container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 1050px;
+  bottom: 0;
+}
+
+#main {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  margin-top: 7.5px;
+}
+
+.borough_map_wrapper {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.borough_map_wrapper img {
+  display: block;
+  width: 70%;
+}
+
+#line-chart {
+  margin-top: 10px;
+}
